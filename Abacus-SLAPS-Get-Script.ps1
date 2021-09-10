@@ -7,4 +7,6 @@ New-Item -Path "C:\Windows\" -Name "LTSvc" -ItemType "directory"
 New-Item -Path "C:\Windows\LTSvc\" -Name "packages" -ItemType "directory"
 
 ################## FETCH THE SCRIPT AND OUTFILE ##################
-Invoke-WebRequest -Uri https://raw.githubusercontent.com/thomasmaurer/demo-cloudshell/master/helloworld.ps1 -OutFile C:\Windows\LTSvc\packages\Abacus-SLAPS-New-LocalAdmin.ps1
+Invoke-WebRequest -Uri https://raw.githubusercontent.com/nluxford-aba/aba-slaps/main/Abacus-SLAPS-New-LocalAdmin-Args.ps1 -OutFile C:\Windows\LTSvc\packages\Abacus-SLAPS-New-LocalAdmin.ps1
+#Exits the script
+exit
